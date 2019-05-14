@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html> 
+    <link rel="stylesheet" href="command.css"/>
+ <head>
+   <title>"Common Linux Commands"</title>
+ </head>
+ <body>
+    <h1 style="text-align:center;">Common Linux Commands</h1>
+    <a href="index.html">Main Page </a>
+    <table style="width:100%">
+<tr>
+    <!--Column Headings-->
+    <th><font face="Arial" size="11">Name of Command</font></th>
+    <th><font face="Arial" size="11">Description</font></th> 
+    <th><font face="Arial" size="11">Example</font></th>
+  </tr>
+  <tr>
+    <!--1st Command-->
+    <td>ls</td>
+    <td>Shows all of the major directories filed under a given file system</td> 
+    <td>ls scripts</td>
+  </tr>
+  <tr>
+    <!--2nd Command-->
+    <td>cd</td>
+    <td>Allow the user to change between file directories</td> 
+    <td>cd website</td>
+  </tr>
+<tr>
+   <!--3rd  Command-->
+    <td>mv</td>
+    <td>Moves a file to another folder or directory</td>
+    <td>mv fileA fileB</td>
+  </tr>
+  <tr>
+    <!--4th Command-->
+    <td>man</td>
+    <td>Shows the manual of the inputted command</td>
+    <td>man cd</td>
+  </tr>
+   <tr>
+    <!--5th Command-->
+    <td>mkdir</td>
+    <td>Makes a new directory</td>
+    <td>mkdir mydirectory</td>
+  </tr>
+  <tr>
+    <!--6th Command-->
+    <td>rmdir</td>
+    <td>Allows the user to remove an existing command</td>
+    <td>rmdir mydirectory</td>
+  </tr>
+  <tr>
+    <!--7th Command-->
+    <td>rm</td>
+    <td>Removes specified files from the file system</td>
+    <td>rm rpistatus</td>
+  </tr>
+  <tr>
+    <!--8th Command-->
+    <td>clear</td>
+    <td>Clears the screen and wipes the board clean</td>
+    <td>clear</td>
+  </tr>
+  <tr>
+    <!--9th Command-->
+    <td>pwd</td>
+    <td>Tells the user what directory the user is in</td>
+    <td>rm rpistatus</td>
+  </tr>
+  <tr>
+    <!--10th Command-->
+    <td>touch</td>
+    <td>Used to create a file</td>
+    <td>touch new.txt</td>
+  </tr>
+  <tr>
+    <!--11th Command-->
+    <td>echo</td>
+    <td>Helps move some data into a file</td>
+    <td>echo hello, my name is Bob</td>
+  </tr>
+ </body>
+</html>
+
