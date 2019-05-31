@@ -1,0 +1,20 @@
+#!/bin/bash
+
+echo Which Pi?
+read rpi
+if [ "$rpi" == "" ]; then 
+        for var in 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20
+        do
+                if ping -c 1 -W 1 "rpi$var" >/dev/null 2>&1; then
+                        echo rpi$var : alive
+                else 
+                        echo rpi$var : dead
+                fi
+        done 
+else
+        if ping -c 1 -W 1 "$rpi" >/dev/null 2>&1; then
+                echo $rpi : alive
+        else 
+                echo $rpi : dead
+        fi
+fi
